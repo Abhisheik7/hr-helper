@@ -1,3 +1,7 @@
+🔗 Live Demo: your-netlify-url.netlify.app
+💻 GitHub: github.com/Abhisheik7/hr-helper
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
