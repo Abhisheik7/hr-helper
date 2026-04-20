@@ -1,4 +1,4 @@
-🔗 Live Demo: your-netlify-url.netlify.app
+🔗 Live Demo: https://hrworkhelper.netlify.app/
 💻 GitHub: github.com/Abhisheik7/hr-helper
 
 # React + TypeScript + Vite
