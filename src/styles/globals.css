@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canvas: #FFFBF1;
+  --color-primary: #EA7B7B;
+  --color-primary-dark: #D45F5F;
+  --color-surface: #FFFFFF;
+  --color-border: #EDE8DC;
+  --color-text-primary: #1A1612;
+  --color-text-secondary: #6B6460;
+  --color-text-muted: #A8A29E;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFBF1;
+  color: #1A1612;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #FDF7EE; }
+::-webkit-scrollbar-thumb { background: #D4C9BE; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #EA7B7B; }
+
+.react-flow__renderer { background: #FFFBF1 !important; }
+.react-flow__background { background: #FFFBF1 !important; }
+
+@keyframes edge-dot {
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(234,123,123,0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(234,123,123,0); }
+}
+
+.node-executing {
+  animation: pulse-glow 0.8s ease-in-out infinite;
+}
+
